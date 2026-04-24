@@ -1,0 +1,189 @@
+## ---------------------------------------------------------------
+## .gitignore for TMAppServMI
+## ASP.NET Core 10 Razor Pages — Visual Studio 2026 — Windows
+## ---------------------------------------------------------------
+
+
+# ========================
+# .NET Build Output
+# ========================
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+[Ll]og/
+[Ll]ogs/
+
+# NuGet packages directory (legacy)
+packages/
+*.nupkg
+*.snupkg
+
+# NuGet lock file (only ignore if not using locked mode)
+# package.lock.json
+
+# Publish output
+[Pp]ublish/
+PublishProfiles/
+
+
+# ========================
+# Visual Studio
+# ========================
+
+# VS local settings & caches
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS solution-level user options
+*.rsuser
+
+# VS Code Analysis
+*.VC.db
+*.VC.opendb
+
+# Test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# Visual Studio Trace files
+*.e2e
+
+# Backup files
+*_i.c
+*_p.c
+*_h.h
+*.ilk
+*.meta
+*.obj
+*.iobj
+*.pch
+*.pdb
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*_wpftmp.csproj
+*.log
+*.tlog
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+
+# ========================
+# ASP.NET Core / Entity Framework
+# ========================
+
+# User secrets (stored outside the repo by design, but guard the file)
+**/Properties/launchSettings.json
+
+# EF Core migrations bundle output
+efbundle
+efbundle.exe
+
+# App local DB files
+*.mdf
+*.ldf
+*.ndf
+
+
+# ========================
+# Sensitive / Environment Config
+# ========================
+appsettings.Production.json
+appsettings.Staging.json
+*.env
+.env
+secrets.json
+
+
+# ========================
+# Azure / Deployment
+# ========================
+.azure/
+.deployment
+deploy.cmd
+*.pubxml
+*.pubxml.user
+*.publishproj
+
+# Azure Functions local settings
+local.settings.json
+
+
+# ========================
+# OS Generated Files
+# ========================
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS (in case of cross-platform contributors)
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+
+# ========================
+# JetBrains Rider / ReSharper
+# ========================
+.idea/
+*.sln.iml
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+
+# ========================
+# Node / Frontend Tooling (if added later)
+# ========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+.parcel-cache/
+
+
+# ========================
+# Docker (if added later)
+# ========================
+.dockerignore
+docker-compose.override.yml
+
+
+# ========================
+# Misc
+# ========================
+*.bak
+*.cache
+*.orig
+*.rej
+*~
