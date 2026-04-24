@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TMAppServMI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be13ceb01201fc951fb6637caf8f0d5c7ac91a30")]
 [assembly: System.Reflection.AssemblyProductAttribute("TMAppServMI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TMAppServMI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

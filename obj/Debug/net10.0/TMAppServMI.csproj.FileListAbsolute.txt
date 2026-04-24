@@ -289,3 +289,4 @@ C:\Users\Jorgito\source\repos\TMAppServMI\obj\Debug\net10.0\refint\TMAppServMI.d
 C:\Users\Jorgito\source\repos\TMAppServMI\obj\Debug\net10.0\TMAppServMI.pdb
 C:\Users\Jorgito\source\repos\TMAppServMI\obj\Debug\net10.0\TMAppServMI.genruntimeconfig.cache
 C:\Users\Jorgito\source\repos\TMAppServMI\obj\Debug\net10.0\ref\TMAppServMI.dll
+C:\Users\Jorgito\source\repos\TMAppServMI\obj\Debug\net10.0\TMAppServMI.sourcelink.json
