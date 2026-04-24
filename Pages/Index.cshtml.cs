@@ -31,8 +31,17 @@ namespace TaskManager.Pages
             using var connection = new SqlConnection(connectionString);
             connection.Open();
             using var command = new SqlCommand("SELECT SUSER_SNAME();", connection);
-            var result = command.ExecuteScalar();
-            CurrentUser = result?.ToString();
+            var result = command.ExecuteScalar()?.ToString();
+
+            if (!string.IsNullOrEmpty(result) && result.Contains("@"))
+            {
+                var parts = result.Split('@');
+                CurrentUser = $"Managed Identity (ObjectId: {parts[0]})";
+            }
+            else
+            {
+                CurrentUser = result;
+            }
         }
     }
 }

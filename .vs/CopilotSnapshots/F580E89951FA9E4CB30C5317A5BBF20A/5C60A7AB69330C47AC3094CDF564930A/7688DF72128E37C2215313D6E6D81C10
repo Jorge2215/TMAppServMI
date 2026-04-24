@@ -1,4 +1,4 @@
-# TMAppServMI — Task Manager on Azure App Service with Managed Identity
+﻿# TMAppServMI — Task Manager on Azure App Service with Managed Identity
 
 A **Razor Pages** web application built with **.NET 10** that provides full CRUD task management backed by **Azure SQL Database**, with authentication via **ASP.NET Core Identity** and secure database connectivity demonstrated through **SQL Server Managed Identity** (`SUSER_SNAME()`).
 
@@ -263,15 +263,5 @@ dotnet user-secrets set "ConnectionStrings:DefaultConnection" "<local-connection
 6. **Deploy** via GitHub Actions, Visual Studio Publish, or `az webapp deploy`.
 
 ---
-## Add App Service Managed Identity to SQL Server
-
-CREATE USER TMAppServMI FROM EXTERNAL PROVIDER;
-ALTER ROLE db_datareader ADD MEMBER TMAppServMI;
-ALTER ROLE db_datawriter ADD MEMBER TMAppServMI;
-
-## Verify SQL Identity
-    SELECT SUSER_SNAME();
-
-
 
 *Built with ❤️ by Jorgito — targeting .NET 10 on Azure App Service with Managed Identity.*
